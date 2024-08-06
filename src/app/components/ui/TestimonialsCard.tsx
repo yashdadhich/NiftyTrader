@@ -1,9 +1,12 @@
+import Image from "next/image";
 
 const TestimonialCard = ({ quote, author, image }:any) => {
   return (
     <div className="flex flex-col md:flex-row items-center p-6 bg-white rounded-lg shadow-md border border-gray-200 mx-auto max-w-md md:max-w-4xl">
       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
-        <img
+        <Image
+        width={500} 
+        height={300} 
           src={image}
           alt={author}
           className="rounded-full w-24 h-24 object-cover"

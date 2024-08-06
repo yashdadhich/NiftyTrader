@@ -1,6 +1,7 @@
 
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -25,13 +26,16 @@ const SwiperTable = () => {
       className="mySwiper"
     >
       <SwiperSlide className="custom-swiper-slide">
-        <img src="/Table.png" className="w-full h-auto" alt="Table 1" />
+        <Image width={500} 
+            height={300}  src="/Table.png" className="w-full h-auto" alt="Table 1" />
       </SwiperSlide>
       <SwiperSlide className="custom-swiper-slide">
-        <img src="/Table.png" className="w-full h-auto" alt="Table 2" />
+        <Image width={500} 
+            height={300}  src="/Table.png" className="w-full h-auto" alt="Table 2" />
       </SwiperSlide>
       <SwiperSlide className="custom-swiper-slide">
-        <img src="/Table.png" className="w-full h-auto" alt="Table 3" />
+        <Image width={500} 
+            height={300}  src="/Table.png" className="w-full h-auto" alt="Table 3" />
       </SwiperSlide>
     </Swiper>
   );

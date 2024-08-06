@@ -21,7 +21,7 @@ const Footer = () => {
                 <span className="font-bold">Nifty Trader</span>
               </p>
               <div className="mt-4">
-                Stop wasting time and start winning!<br /> Get access to Nifty Trader's Stock Screeners today!
+                Stop wasting time and start winning!<br /> Get access to Nifty Trader&apos;s Stock Screeners today!
               </div>
               <button className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-600 mt-4">
                 Start Free Trial Now

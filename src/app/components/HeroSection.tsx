@@ -1,23 +1,28 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
     <main 
-    className="relative py-16 bg-cover bg-center" 
-    style={{ backgroundImage: "url('/Background.png')" }}
-  >
-          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+      className="relative py-16 bg-cover bg-center" 
+      style={{ backgroundImage: "url('/Background.png')" }}
+    >
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
         <div className="text-center md:text-left">
           <h1 className="text-4xl font-bold text-white">STOCK SCREENING SIMPLIFIED!</h1>
-          <p className="mt-5 text-white">Find Winning Stock Faster with Nifty Trader's <br/>Advanced Stock Screening Tool</p>
+          <p className="mt-5 text-white">
+            Find Winning Stock Faster with Nifty Trader&apos;s<br/>Advanced Stock Screening Tool
+          </p>
           <button className="bg-sky-400 text-white px-6 py-3 rounded shadow-lg hover:bg-blue-600 mt-4">
             Free Trial
           </button>    
-              </div>
+        </div>
         <div className="mt-8 relative">
-          <img
+          <Image
             src="/VideoThumbnail.svg"
             alt="Video Thumbnail"
+            width={500} 
+            height={300} 
             className="mx-auto rounded-lg shadow-lg"
           />
           <div className="absolute inset-0 flex items-center justify-center">
